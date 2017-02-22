@@ -1,0 +1,4 @@
+# ignore everything except this file
+# this directory should contain the SDK framework, but we're not making that public
+# this ignore lets us add the 'empty' directory to the repo (so developers know where to put the framework), but not its contents
+!.gitignore

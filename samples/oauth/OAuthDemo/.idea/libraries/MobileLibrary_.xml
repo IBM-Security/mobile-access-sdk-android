@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MobileLibrary-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ibm.security.access.mobile/MobileLibrary/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ibm.security.access.mobile/MobileLibrary/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

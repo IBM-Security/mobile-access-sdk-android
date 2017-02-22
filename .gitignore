@@ -1,0 +1,12 @@
+Maintainer.md
+
+# project files
+build
+xcuserdata
+
+# SDK files
+*.aar
+*.framework
+
+# junk
+.DS_Store
