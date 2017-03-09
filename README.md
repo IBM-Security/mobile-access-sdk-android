@@ -7,15 +7,12 @@ This repository contains sample apps and code snippets to showcase and provide g
 
 [Looking for the iOS version?](https://github.com/ibm-security/mobile-access-sdk-ios)
 
-<!-- numbers: <C-V>u2460 for ①; it adds from there -->
 ## ① Getting the SDK
 
-<!-- more friendly? -->
 To access the SDK you need to sign in with an IBM ID account.  Create your free [IBM ID](https://www.ibm.com/account/us-en/signup/register.html) and navigate to [Fix Central](https://ibm.biz/ibmsecuritymobileaccesssdk) to download the SDK.
 
 
 <br/>
-<!-- "set up your IDE"? -->
 ## ② Configuring your environment
 
 The SDK can be used in Xcode and Android Studio.
@@ -53,7 +50,7 @@ For more information about IBM Verify, navigate to the [user guide](http://www-0
 The contents of this repository are open-source under the Apache 2.0 licence. The SDK itself is closed-source.
 
 ```
-Copyright 2016 International Business Machines
+Copyright 2017 International Business Machines
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
