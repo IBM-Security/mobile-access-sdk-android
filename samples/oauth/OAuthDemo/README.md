@@ -7,7 +7,7 @@ It can request and refresh OAuth tokens using the Resource Owner Protected Crede
 
 ### Setup
 
-Follow the **download steps** in [Getting the SDK](../../../../samples/getting-the-sdk.md) and drop it into `app/libs`. You won't need the **configuration steps**.
+Follow the **download steps** in [Getting the SDK](../../getting-the-sdk.md) and drop it into `app/libs`. You won't need the **configuration steps**.
 
 
 ### App notes

@@ -9,7 +9,7 @@ Create your free [IBM ID](https://www.ibm.com/account/us-en/signup/register.html
 
 Please note: if you download any of the sample apps, the workspace is configured for the SDK. Just drop the library file into `app/libs`.
 
-[![Link to video instructions](../../res/youtube-android.png)](https://youtube.com/watch?v=D9kd4idYzk0)
+[![Link to video instructions](../res/youtube-android.png)](https://youtube.com/watch?v=D9kd4idYzk0)
 
 1\. [Download the .zip](README.md#Download) and extract to somewhere easily located. The SDK file to import is the `.aar`.
  
@@ -21,7 +21,7 @@ Please note: if you download any of the sample apps, the workspace is configured
 
 5\. In the Android sidebar, expand the "Gradle Scripts" group, and open the "build.gradle" file relating to your module (usually "app").
 
-![build.gradle under "Gradle Scripts"](../../res/app-build-gradle-file.png)
+![build.gradle under "Gradle Scripts"](../res/app-build-gradle-file.png)
 
 6\. Add the following lines to your `android` block:
 ```gradle
@@ -58,7 +58,7 @@ import com.ibm.security.access.mobile.authorization.HotpGeneratorContext;
 
 10\. Launch the app in an emulator. Look in Android Monitor, ensuring that your log level is set to "Info":
 
-![Android Monitor set to "Info" level](../../res/logcat-info.png)
+![Android Monitor set to "Info" level](../res/logcat-info.png)
 
 You'll see a line like this:
 

@@ -1,5 +1,5 @@
 # Certificate pinning
-Certificate pinning is the practice of setting a custom CA or certificate as permitted in your app.
+Certificate pinning enables setting a custom CA or certificate as permitted in your app.
 
 Certificate pinning can be useful in two major cases:
 - In development: enabling self-signed certificates on development servers.
@@ -8,7 +8,7 @@ Certificate pinning can be useful in two major cases:
 Please refer to the relevant platform documentation for best practices.
 
 ## Downloading the certificate
-If you're working with a development server, this is the easiest way to download a certificate chain:
+Working with a development server, the following is the easiest way to download a certificate chain:
 ```sh
 # for DER:
 openssl s_client -connect <host>:<port> -showcerts 2>/dev/null </dev/null | openssl x509 -inform pem -outform der -out <certificate-name>.der
@@ -18,9 +18,9 @@ openssl s_client -connect <host>:<port> -showcerts 2>/dev/null </dev/null | open
 
 ## Certificate pinning in Android
 
-> Need to [download your server's certificate](README.md#downloading-the-certificate)?
+> Need to [download your server's certificate](#downloading-the-certificate)?
 
-Our `Context` classes take two components: an [SSLContext](https://developer.android.com/reference/javax/net/ssl/SSLContext.html) and a [HostnameVerifier](https://developer.android.com/reference/javax/net/ssl/HostnameVerifier.html).
+The `Context` classes take two components: an [SSLContext](https://developer.android.com/reference/javax/net/ssl/SSLContext.html) and a [HostnameVerifier](https://developer.android.com/reference/javax/net/ssl/HostnameVerifier.html).
 
 Refer to the [Android security documentation](https://developer.android.com/training/articles/security-ssl.html) for more information.
 
