@@ -8,12 +8,14 @@ This repository contains sample apps and code snippets to showcase and provide g
 [Looking for the iOS version?](https://github.com/ibm-security/mobile-access-sdk-ios)
 
 <br/>
+
 ## ① Getting the SDK
 
 To access the SDK you need to sign in with an IBM ID account.  Create your free [IBM ID](https://www.ibm.com/account/us-en/signup/register.html) and navigate to [Fix Central](https://ibm.biz/ibmsecuritymobileaccesssdk) to download the SDK.
 
 
 <br/>
+
 ## ② Configuring your environment
 
 The SDK can be used in Xcode and Android Studio.
@@ -21,6 +23,7 @@ The SDK can be used in Xcode and Android Studio.
 See our [instructions on configuring your project with the SDK](samples/getting-the-sdk.md).
 
 <br/>
+
 ## ③ Sample apps and code snippets
 
 Available samples and snippets include:
@@ -32,6 +35,7 @@ Available samples and snippets include:
 > Note that all samples depend on the SDK, ensure your development environment is configured beforehand.
 
 <br/>
+
 ## ④ IBM Verify
 
 IBM Verify is a mobile app for multi-factor authentication (MFA) with IBM Security Access Manager (ISAM).  IBM Verify features:
@@ -46,6 +50,7 @@ For more information about IBM Verify, navigate to the [user guide](http://www-0
 [![Get it on Google Play](res/get-it-on-google-play-store.png)](https://play.google.com/store/apps/details?id=com.ibm.security.verifyapp)
 
 <br/>
+
 # License
 
 The contents of this repository are open-source under the Apache 2.0 licence. The SDK itself is closed-source.
