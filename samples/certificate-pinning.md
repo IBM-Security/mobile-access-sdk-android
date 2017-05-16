@@ -18,8 +18,6 @@ openssl s_client -connect <host>:<port> -showcerts 2>/dev/null </dev/null | open
 
 ## Certificate pinning in Android
 
-> Need to [download your server's certificate](#downloading-the-certificate)?
-
 The `Context` classes take two components: an [SSLContext](https://developer.android.com/reference/javax/net/ssl/SSLContext.html) and a [HostnameVerifier](https://developer.android.com/reference/javax/net/ssl/HostnameVerifier.html).
 
 Refer to the [Android security documentation](https://developer.android.com/training/articles/security-ssl.html) for more information.
