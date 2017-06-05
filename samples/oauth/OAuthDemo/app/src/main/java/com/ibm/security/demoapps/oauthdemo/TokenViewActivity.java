@@ -113,7 +113,7 @@ public class TokenViewActivity extends AppCompatActivity {
         // initialise queue
         requestQueue = newRequestQueue(this);
 
-        // the critical part: kick off a background task to get the access token
+        // kick off a background task to get the access token
         showTokenProgress(true);
         mAuthTask = new GetAccessTokenTask(username, password, tokenEndpoint, clientId);
         mAuthTask.execute((Void) null);
@@ -178,9 +178,12 @@ public class TokenViewActivity extends AppCompatActivity {
                     }
                     return;
                 }
-                Toast.makeText(TokenViewActivity.this, error.networkResponse.toString(), Toast.LENGTH_SHORT).show();
-                if (error.getMessage().length() < 1) {
+                if (error.getMessage() == null || error.getMessage().length() < 1) {
                     Toast.makeText(TokenViewActivity.this, "Volley error (check the log)", Toast.LENGTH_SHORT).show();
+                    resourceErrorInfo.setText("Volley error (check the log)");
+                }
+                else {
+                    Toast.makeText(TokenViewActivity.this, error.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 }
             }
         });

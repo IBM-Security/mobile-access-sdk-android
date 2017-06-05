@@ -85,6 +85,12 @@
                 android:text="@string/endpoint" />
         </TableRow>
     </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/update_credentials_in"
+        />
 
     <Button
         android:id="@+id/initiate_token_button"
