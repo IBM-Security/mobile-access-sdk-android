@@ -10,7 +10,7 @@ It supports one account at a time.
 
 ### Setup
 
-Follow the **download steps** in [Getting the SDK](../../../../samples/getting-the-sdk) and drop it into `app/libs`. You won't need the **configuration steps**.
+Follow the **download steps** in [Getting the SDK](../../getting-the-sdk.md) and drop it into `app/libs`. You won't need the **configuration steps**.
 
 ### Caveats
 
