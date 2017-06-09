@@ -15,7 +15,7 @@ Follow the **download steps** in [Getting the SDK](../../getting-the-sdk.md) and
 - Pay attention to the `AsyncTask` implementations in TokenViewActivity.
 
 ### Tips for debugging
-- If you see a `CertPathValidatorException`, there's something wrong with the test server's certificate chain: commonly it's self-signed. The SDK allows you to do [custom certificate validation](../../../../documentation/certificate-pinning.md).
+- If you see a `CertPathValidatorException`, there's something wrong with the test server's certificate chain: commonly it's self-signed. The SDK allows you to do [custom certificate validation](../../certificate-pinning.md).
 - The activity-scope handling of `authResult` and `mAuthTask` are intended to simplify the code, but remember that they're done that way.
 
 ## Licence
