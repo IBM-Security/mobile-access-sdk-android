@@ -1,1 +1,1 @@
-include ':app', ':IBMMobileKit-1.2.6'
+include ':app'
