@@ -56,6 +56,12 @@ Available [samples](samples/README.md) and [snippets](snippets/README.md) includ
         <th>Description</th>
     </tr>
     <tr>
+        <td>MFA Fingerprint, PIN & Username/Password</td>
+        <td><a href="samples/AndroidAppForOAuthFingerprint">Sample</a></td>
+        <td>This example demonstrates registering & authenticating a fingerprint or PIN with IBM MFA. In particular, this demonstrates quick login (after Username/Password login) with the on-device biometric 
+or PIN.</td>
+    </tr>
+    <tr>
         <td>MMFA Device Registration</td>
         <td><a href="samples/DeviceRegistration">Sample</a></td>
         <td>This example demonstrates registering a device with IBM MMFA.</td>
