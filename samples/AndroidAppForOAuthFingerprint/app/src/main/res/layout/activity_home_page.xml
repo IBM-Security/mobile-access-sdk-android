@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context="com.ibm.security.demoapps.oauthdemo.HomePageActivity">
+
+    <Button
+        android:id="@+id/ReAuthenticate"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="REAUTHENTICATE"
+        android:layout_marginBottom="12dp"
+        android:layout_centerInParent="true"
+        android:onClick="onClickReAuthenticate"/>
+
+
+    <Button
+        android:id="@+id/button_Logout"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="RESET"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/ReAuthenticate"
+        android:onClick="onClickLogout"/>
+
+
+    <Button
+        android:id="@+id/button_unregFingerprintAuth"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="UNREGISTERFINGERPRINT"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/button_Logout"
+        android:visibility="invisible"
+        android:onClick="onClickUnRegFingerprintAuth"/>
+
+
+</RelativeLayout>

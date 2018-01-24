@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fingerprint_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:text="@string/instructions" />
+
+        <ImageView
+            android:id="@+id/fingerprint_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fingerprint_description"
+            android:contentDescription="@string/instructions"
+            android:layout_marginTop="20dp"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            android:src="@drawable/ic_fingerprint"
+            android:background="@drawable/ic_fingerprint"
+            />
+
+        <TextView
+            android:id="@+id/fingerprint_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/fingerprint_icon"
+            android:layout_alignTop="@+id/fingerprint_icon"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/fingerprint_icon"
+            android:gravity="center_vertical"
+            android:text="@string/layout_fingerprintrequest_touchsensor" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/PrimaryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:onClick="onClickCancelDialog"
+            android:layout_below="@+id/fingerprint_status"
+            android:text="@string/label_cancel" />
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

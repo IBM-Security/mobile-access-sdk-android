@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context="com.ibm.security.demoapps.oauthdemo.WebLaunchActivity">
+    <TableRow
+        android:id="@+id/tableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+    <TextView
+        android:id="@+id/textViewweb01"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="WebView of Demo"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dip" >
+    <WebView
+        android:id="@+id/webview01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+    <ImageView
+        android:src="@drawable/ic_action_launchwebpage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    </TableRow>
+
+
+</TableLayout>

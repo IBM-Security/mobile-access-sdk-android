@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context="com.ibm.security.demoapps.oauthdemo.ChangepinActivity">
+
+    <EditText
+        android:id="@+id/enterOldPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/darker_gray"
+        android:shadowColor="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Enter OLD Pin"
+        android:inputType="number"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="?android:attr/textColorHintInverse"
+        android:textColorLink="@color/white"
+        android:layout_alignParentTop="true"
+
+        />
+
+    <EditText
+        android:id="@+id/enterNewPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/darker_gray"
+        android:shadowColor="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Enter NEW Pin"
+        android:inputType="number"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="?android:attr/textColorHintInverse"
+        android:textColorLink="@color/white"
+        android:layout_below="@+id/enterOldPin"
+
+        />
+
+    <Button
+        android:id="@+id/Changepin"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="CHANGEPIN"
+        android:layout_marginBottom="12dp"
+        android:layout_centerInParent="true"
+        android:onClick="onClickChangePin"/>
+
+
+    <Button
+        android:id="@+id/ReAuthenticate1"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="HOME"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/Changepin"
+        android:onClick="onClickGoToHomepage"/>
+
+
+
+</RelativeLayout>

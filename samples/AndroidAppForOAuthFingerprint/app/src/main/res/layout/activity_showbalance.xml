@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context="com.ibm.security.demoapps.oauthdemo.ShowbalanceActivity">
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <Button
+                android:id="@+id/showBalance"
+                style="@style/PrimaryButton"
+                android:layout_width="256dp"
+                android:layout_height="74dp"
+                android:text="SHOWBALANCE"
+                android:layout_marginBottom="12dp"
+                android:layout_centerInParent="true"
+                android:onClick="onClickShowResource"/>
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView01"-->
+                <!--android:layout_width="320dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="50dp"-->
+                <!--android:text="Savings  100000"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18sp" />-->
+
+
+        <!--</TableRow>-->
+
+
+        <!--<TableRow-->
+            <!--android:id="@+id/tableRow02"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="5dip" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView02"-->
+                <!--android:layout_width="320dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="50dp"-->
+                <!--android:text="Credit  30000"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18sp" />-->
+        </TableRow>
+
+
+
+        <!-- display this button in 2nd column via layout_column(zero based) -->
+        <TableRow
+            android:id="@+id/tableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+
+            <Button
+                android:id="@+id/GoHome"
+                style="@style/PrimaryButton"
+                android:layout_width="256dp"
+                android:layout_height="74dp"
+                android:text="HOME"
+                android:layout_marginBottom="12dp"
+                android:layout_centerInParent="true"
+                android:onClick="onClickGoToHomepage"/>
+        </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+
+        <Button
+            android:id="@+id/WebLaunch"
+            style="@style/PrimaryButton"
+            android:layout_width="256dp"
+            android:layout_height="74dp"
+            android:text="WebLaunch"
+            android:layout_below="@+id/GoHome"
+            android:onClick="onClickLaunchWebpage"/>
+    </TableRow>
+
+</TableLayout>
+
+

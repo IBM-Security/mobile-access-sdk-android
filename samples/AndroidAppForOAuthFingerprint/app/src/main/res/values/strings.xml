@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OAuthBANKDemo</string>
+    <string name="enterpinnumber">EnterPinNumber</string>
+    <string name="authorization_endpoint_ip">AuthorizationEndpointIp</string>
+    <string name="ClientID">ClientID</string>
+    <string name="layout_fingerprintrequest_touchsensor">layout_fingerprintrequest_touchsensor</string>
+    <string name="instructions">
+Place your fingertip on the Home button to verify your identity
+</string>
+</resources>

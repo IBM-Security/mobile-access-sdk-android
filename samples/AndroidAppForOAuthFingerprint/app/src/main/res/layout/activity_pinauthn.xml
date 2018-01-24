@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context="com.ibm.security.demoapps.oauthdemo.PINAuthnActivity">
+
+    <EditText
+        android:id="@+id/enterPinNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/darker_gray"
+        android:shadowColor="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="@string/enterpinnumber"
+        android:inputType="number"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="?android:attr/textColorHintInverse"
+        android:textColorLink="@color/white"
+        android:layout_alignParentTop="true"
+
+         />
+    <Button
+        android:id="@+id/button_refresh_token_by_pin"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="PIN AUTHENTICATE"
+        android:layout_below="@+id/enterPinNumber"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickAuthenticatewithPin"/>
+
+    <Button
+        android:id="@+id/button_enrol_fingerprint"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="REGISTER TouchID"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_refresh_token_by_pin"
+        android:onClick="onClickEnrolFingerprint"/>
+
+    <Button
+        android:id="@+id/button_changepin"
+        style="@style/PrimaryButton"
+        android:layout_width="256dp"
+        android:layout_height="74dp"
+        android:text="CHANGEPIN"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_enrol_fingerprint"
+        android:onClick="onClickChangePin"/>
+
+</RelativeLayout>
