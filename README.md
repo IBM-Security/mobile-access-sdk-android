@@ -152,7 +152,7 @@ We do not provide external security certifications for the SDK.  IBM recommends 
 The contents of this repository are open-source under [this license](LICENSE). The SDK itself is closed-source.
 
 ```
-Copyright 2017 International Business Machines
+Copyright 2018 International Business Machines
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
