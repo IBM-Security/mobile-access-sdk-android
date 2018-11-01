@@ -1,3 +1,9 @@
+This repo is deprecated.
+
+Please go to https://github.com/IBM-Security/verify-sdk-android
+
+--------------
+
 # Mobile Access SDK for Android
 
 [![SDK Version](https://img.shields.io/badge/version-1.2.6-lightgray.svg)](https://ibm.biz/ibmsecuritymobileaccesssdk)
